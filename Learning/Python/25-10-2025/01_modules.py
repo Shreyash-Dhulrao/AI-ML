@@ -16,4 +16,8 @@ There are many functions in math and we can access it by using math. and name of
 import requests # Here we have installed the requests using pip
 
 req = requests.get("https://www.google.com")
-print(req.text) # This will print whole webpage in text format.
+# print(req.text) # This will print whole webpage in text format.
+
+import loc_module # This is a module which we have created locally
+# We can create modules and use it like other modules
+print(loc_module.average(5, 10))
